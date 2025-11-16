@@ -11,7 +11,6 @@ vim.opt.incsearch = true            -- search as characters are entered
 vim.opt.ignorecase = true           -- ignore case in searches by default
 vim.opt.smartcase = true            -- but make it case sensitive if an uppercase is entered
 
-
 -- Map 'Esc' to exit terminal mode in Neovim
 vim.api.nvim_set_keymap('t', '<Esc>', [[<C-\><C-N>]], { noremap = true, silent = true })
 
